@@ -28,52 +28,56 @@ javac src/*.java
 java src/SudokuSolverMain
 When prompted, enter your puzzle filename (e.g., puzzle01_9.txt)
 
-Project Structure
-text
-SudokuSolver/
-├── src/
-│   ├── SudokuSolverMain.java    # Entry point
-│   └── SudokuGrid.java          # Core solver logic
-├── puzzles/                     # Sample puzzles
-│   ├── puzzle01_9.txt
-│   └── puzzle02_9.txt
-└── README.md
-Example Puzzle
-Input (puzzle01_9.txt):
-
-# text
-    9
-    - - - - - 1 6 5 7
-    1 3 - - 5 - - - -
-    - - - - 2 - - 1 -
-    - - - - - 2 5 - -
-    - 2 - 8 7 5 - 4 -
-    - - 1 9 - - - - -
-    - 5 - - 8 - - - -
-    - - - - 3 - - 6 2
-    2 8 4 7 - - - - -
-    Output:
-    
+# Project Structure
     text
-    Solved Sudoku Grid:
-    5 4 2 3 6 1 6 5 7
-    1 3 7 4 5 9 2 8 6
-    ...
-    Troubleshooting
-    Compilation issues: Verify JDK installation and file paths
+    SudokuSolver/
+    ├── src/
+    │   ├── SudokuSolverMain.java    # Entry point
+    │   └── SudokuGrid.java          # Core solver logic
+    ├── puzzles/                     # Sample puzzles
+    │   ├── puzzle01_9.txt
+    │   └── puzzle02_9.txt
+    └── README.md
+    Example Puzzle
+    Input (puzzle01_9.txt):
+
+## Example Puzzle
+    # Input (puzzle01_9.txt):
+        9
+        - - - - - 1 6 5 7
+        1 3 - - 5 - - - -
+        - - - - 2 - - 1 -
+        - - - - - 2 5 - -
+        - 2 - 8 7 5 - 4 -
+        - - 1 9 - - - - -
+        - 5 - - 8 - - - -
+        - - - - 3 - - 6 2
+        2 8 4 7 - - - - -
+   
+    # Output:
     
-    File not found: Ensure puzzle files are in correct directory
+        Solved Sudoku Grid:
+        5 4 2 3 6 1 6 5 7
+        1 3 7 4 5 9 2 8 6
+        ...
+
+# Troubleshooting
+   - Compilation issues: Verify JDK installation and file paths
+   - File not found: Ensure puzzle files are in correct directory
+   - Incorrect solutions: Check puzzle format and algorithm implementation
     
-    Incorrect solutions: Check puzzle format and algorithm implementation
+# Extensions
+    - Find all possible solutions for a puzzle
+    - Verify solution uniqueness
+    - Support for different grid sizes
     
-    Extensions
-    Find all possible solutions for a puzzle
-    
-    Verify solution uniqueness
-    
-    Support for different grid sizes
-    
-    Author
-    Developed by Sanjina Kumari at Pacific Lutheran University
-    
-    Questions? Feel free to reach out!
+# Developer
+  Developed by Sanjina Kumari at Pacific Lutheran University.
+ 
+  For questions or feedback, feel free to reach out at sanjinamandhwani1@gmail.com!
+
+# 📜 Acknowledgements
+Project inspired by coursework in **CSCI 270 at Pacific Lutheran University**.  
+
+Starter dataset and UML guidance provided by faculty.  
+
