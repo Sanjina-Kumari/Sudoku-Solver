@@ -67,9 +67,9 @@ When prompted, enter your puzzle filename (e.g., puzzle01_9.txt)
    - Incorrect solutions: Check puzzle format and algorithm implementation
     
 # Extensions
-    - Find all possible solutions for a puzzle
-    - Verify solution uniqueness
-    - Support for different grid sizes
+ - Find all possible solutions for a puzzle
+ - Verify solution uniqueness
+ - Support for different grid sizes
     
 # Developer
   Developed by Sanjina Kumari at Pacific Lutheran University.
